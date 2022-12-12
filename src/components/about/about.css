@@ -54,7 +54,7 @@
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 0.8rem;
 }
 
 .about__card h5{
@@ -63,7 +63,7 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light)
+    color: var(--color-light);
 }
 
 .about__container p {

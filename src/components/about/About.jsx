@@ -1,7 +1,10 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
+import {AiFillFire} from 'react-icons/ai'
+import {ImBook} from 'react-icons/im'
+/*import {AiFillFire} from 'react-icons/ai'*/
+
 
 const About = () => {
   return (
@@ -19,17 +22,22 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
           <article className="about__card">
-             <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+            <AiFillFire className="about__icon" />
+              <h5/>
+              <small>Je suis</small>
+              <h5>Passionné</h5>
             </article> <article className="about__card">
-             <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+             <ImBook className="about__icon" />
+             <h5/>
+              <small>Je suis</small>
+              <h5>Curieux</h5>
+
             </article> <article className="about__card">
-             <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+             <AiFillFire className="about__icon" />
+              <h5/>
+              <small>Je suis</small>
+              <h5>Motivé</h5>
+              
             </article>
           </div>
         <p>
